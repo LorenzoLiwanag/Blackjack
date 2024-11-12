@@ -131,11 +131,13 @@
     <ClCompile Include="Blackjack.cpp" />
     <ClCompile Include="Card.cpp" />
     <ClCompile Include="FaceCard.cpp" />
+    <ClCompile Include="NumberCard.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AceCard.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="FaceCard.h" />
+    <ClInclude Include="NumberCard.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
