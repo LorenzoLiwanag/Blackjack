@@ -2,26 +2,12 @@
 #include <string>
 
 class Card {
-public:
-	virtual int setValue() = 0;
-
 protected:
 	int value;
-	std::string type;
-};
-
-
-class FaceCard : public Card {
 public:
-	int setValue() override;
+	Card (int cardValue) :value (cardValue) {}
+	int getCardValue() const;
+	virtual int setValue() = 0;
 };
 
-class NumberedCard : public Card {
-public:
-	int setValue() override;
-};
 
-class AceCard : public Card {
-public:
-	int setValue() override;
-};
