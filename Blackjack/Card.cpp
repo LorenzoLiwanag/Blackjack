@@ -2,7 +2,7 @@
 #include <iostream>
 #include <ctime>
 
-int Card::getCardValue() const
-{
-	return value;
-}
+//int Card::getCardValue() const
+//{
+//	return value;
+//}

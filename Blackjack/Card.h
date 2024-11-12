@@ -2,12 +2,10 @@
 #include <string>
 
 class Card {
-protected:
-	int value;
 public:
-	Card (int cardValue) :value (cardValue) {}
-	int getCardValue() const;
+	//int getCardValue() const;
 	virtual int setValue() = 0;
 };
+
 
 
